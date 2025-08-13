@@ -75,7 +75,7 @@ async def start(message: types.Message):
     kb.add(
         types.InlineKeyboardButton(
             text="📢 Подписаться",
-            url=f"https://t.me/@m_kapusssta.lstrip('@')}"
+            url=f"https://t.me/{m_kapusssta.lstrip('@')}"
         ),
         types.InlineKeyboardButton(
             text="✅ Проверить подписку", callback_data="check_sub"
